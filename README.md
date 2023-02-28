@@ -1,4 +1,4 @@
-# PDO_face_rec
+# Systém Face_Rec 
 
 
 ## Analýza cílové skupiny
