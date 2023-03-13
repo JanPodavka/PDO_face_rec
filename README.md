@@ -11,8 +11,7 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 **Zaměření:** IT, strojové učení <br/>
 
 
-#Pivo
-                      Otvírák
+# Pivo
 
 ## 1) Koncept
 
