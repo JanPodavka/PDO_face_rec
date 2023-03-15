@@ -15,7 +15,7 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 
 ## 1) Koncept
 
-Předmět, který momentálně držíte ve vašich rukou slouží k otevření nápojů s kovovými zátkami.
+Otvírak slouží k otevření nápojů s kovovými zátkami.
 
 ## 2) Pracovní postup
 
@@ -27,7 +27,16 @@ Předmět, který momentálně držíte ve vašich rukou slouží k otevření n
 
 ## 3) Reference
 
+### Otvírák
+kovový otvírák střední velikost
 
+### Kroužek
+
+slouží pro připojení úchytného zařízení
+
+###  kovová svorka
+
+svorka sloužící na připojení ke kusu oblečení, zabraňující ztrátě
 
 ## 4) Katalogový list
 
@@ -40,4 +49,4 @@ záruka: 2 roky
 
 ## 5) Tuturiál
 
-Zde se naučíme, jak správně otevírat pivo správně
+Při prvním užití je vhodné připojení otvíráku ke svorce. Následně je možné přistoupit k prvnímu otevření láhve. Poté uchopíme otvírák do ruky a přiložíme pod úhlem 45 stupňů k láhvy. Páčivým pohybem směrem dolů od láhve lze oddělit uzávěr od láhve.
