@@ -13,11 +13,11 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 # Struktura dokumentace
 
 1. Úvod do projektu
- - popis co se nacházi v projektu
+ - představení projektu
  - knihovny potřebné pro spuštění
 2. Databáze
-- popis obsahu databáze
-- formát uložení databáze
+- obsah databáze
+- formát uložení
 3. Aplikace Face_ReC
 - vývojový diagram
 - funkcionalita
