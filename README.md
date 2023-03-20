@@ -18,7 +18,7 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 2. Databáze
 - obsah databáze
 - formát uložení
-3. Aplikace Face_ReC
+3. Aplikace Face_Rec
 - vývojový diagram
 - funkcionalita
 - návod ke spuštění
