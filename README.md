@@ -10,6 +10,26 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 **Předpokládané vzdělaní:** vysokoškolské <br/>
 **Zaměření:** IT, strojové učení <br/>
 
+# Struktura dokumentace
+
+1. Úvod do projektu
+ - popis co se nacházi v projektu
+ - knihovny potřebné pro spuštění
+2. Databáze
+- popis obsahu databáze
+- formát uložení databáze
+3. Aplikace Face_ReC
+- vývojový diagram
+- funkcionalita
+- návod ke spuštění
+- ovládání aplikace
+4. Programy pro analýzu dat
+- soupis jednotlivých scriptů
+  - popis funkcionality
+  - souhrn použitých metod
+  - ovládací proměnné
+5. Data a výsledky analýzy testování
+- strukturované odkazy k výsledkům testování včetně použitých dat
 
 # Pivo
 
