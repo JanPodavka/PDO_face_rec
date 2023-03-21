@@ -18,17 +18,21 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 2. Databáze
 - obsah databáze
 - formát uložení
-3. Aplikace Face_Rec
+3. Použité metody
+- metody detekce osob
+- metody rozpoznání osob
+- metody rozpoznání emocí, pohlaví a věku
+4. Aplikace Face_Rec
 - vývojový diagram
 - funkcionalita
 - návod ke spuštění
 - ovládání aplikace
-4. Programy pro analýzu dat
+5. Programy pro analýzu dat
 - soupis jednotlivých scriptů
   - popis funkcionality
   - souhrn použitých metod
   - ovládací proměnné
-5. Data a výsledky analýzy testování
+6. Data a výsledky analýzy testování
 - strukturované odkazy k výsledkům testování včetně použitých dat
 
 # Pivo
