@@ -12,10 +12,10 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 
 # Struktura dokumentace
 
-1. Úvod do projektu
+## 1. Úvod do projektu
  - představení projektu
  - knihovny potřebné pro spuštění
-2. Databáze
+## 2. Databáze
 databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Pro uložení anotací k snímkům byl zvolen formát JSON s následující strukturou:
 - "name": jméno
 - "age": 10 | 20 | 30 | 40 | 50 | 60 | 70
@@ -23,21 +23,33 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
 - "emotion": "S" | "H" | "N"  | "A" |
 - "faceloc" = [x1, y1, y2, x2] ((levý horní roh), (pravý spodní roh))
 
-3. Použité metody
-- metody detekce osob
-- metody rozpoznání osob
-- metody rozpoznání emocí, pohlaví a věku
-4. Aplikace Face_Rec
-- vývojový diagram
-- funkcionalita
-- návod ke spuštění
-- ovládání aplikace
-5. Programy pro analýzu dat
+## 3. Použité metody
+### metody detekce osob
+- Segmentace (vlastní implementace)
+- Viola-Jones (OpenCV)
+- MTCNN (OpenCV)
+- HOG (DLIB)
+### metody rozpoznání osob
+- PCA (vlasní implementace + Scipy)
+- Korelační filtr MACE (vlastní implementace)
+- Deep metric learning (knihovna Face_recognition implementující resnet-34 architekturu DLIB)
+### metody rozpoznání emocí, pohlaví a věku
+- YOLO v7 (použita [implementace](https://github.com/WongKinYiu/yolov7))
+- Vlastní neuronové sítě
+  - test
+  - test
+  - test
+## 4. Aplikace Face_Rec
+### vývojový diagram
+### funkcionalita
+### návod ke spuštění
+
+## 5. Programy pro analýzu dat
 - soupis jednotlivých scriptů
   - popis funkcionality
   - souhrn použitých metod
   - ovládací proměnné
-6. Data a výsledky analýzy testování
+## 6. Data a výsledky analýzy testování
 - strukturované odkazy k výsledkům testování včetně použitých dat
 
 # Pivo
