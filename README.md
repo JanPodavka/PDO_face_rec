@@ -115,14 +115,18 @@ Při prvním užití je vhodné připojení otvíráku ke svorce. Následně je 
 - Přepínač umístěný vedle konektoru přesuneme do polohy "on" (znak | ) 
 
 ## Zapojení periferií
+### Monitor
 - V obalu přiložený HDMI kabel připojíme jedním koncem do základní desky a druhým do monitoru (je nutné dá si pozor aby nedošlo k zapojení do grafické karty)
 - Monitor následně připojte zdrojovým kabelem do elektrické sítě 230V
-- Klávesnice je zapojena kabelem do základní desky
+### Klávesnice
+- Klávesnice je zapojena kabelem do USB konektoru základní desky
 ### Bezdrátová myš
 - Ze spodní strany myšy je nutné páčivým pohybem odstranit krytku baterie
+- Pod krytem je umístěn bezdrátový přijímač, který umístětě do USB konektoru počítače 
 - V obalu myšy naleznete 1,5V baterii která je potřeba vložit do místa pod krytkou
 - Na baterii vidíte na koncích značku "+" a "-", vložte baterii na místo se shodujícími se znaky v místě po otevření krytu
 - Kryt vratťe na původní místo
+
 
 # Windows
 - Stisknetě tlačítko Power
