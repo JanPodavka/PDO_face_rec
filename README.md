@@ -16,8 +16,13 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
  - představení projektu
  - knihovny potřebné pro spuštění
 2. Databáze
-- obsah databáze
-- formát uložení
+databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Pro uložení anotací k snímkům byl zvolen formát JSON s následující strukturou:
+- "name": jméno
+- "age": 10 | 20 | 30 | 40 | 50 | 60 | 70
+- "gender": "F" | "M"
+- "emotion": "S" | "H" | "N"  | "A" |
+- "faceloc" = [x1, y1, y2, x2] ((levý horní roh), (pravý spodní roh))
+
 3. Použité metody
 - metody detekce osob
 - metody rozpoznání osob
