@@ -21,7 +21,8 @@ Tato práce se skládá ze 3 hlavních komponent:
 Před začátkem je velmi doporučena instalace veškerých knihoven. Tyto knihovny lze získat stažením projektu a příkazem pip: -r requirements.txt
  
 ## 2. Databáze
-databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Pro uložení anotací k snímkům byl zvolen formát JSON s následující strukturou:
+
+Databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Pro uložení anotací k snímkům byl zvolen formát JSON s následující strukturou:
 - "name": jméno
 - "age": 10 | 20 | 30 | 40 | 50 | 60 | 70
 - "gender": "F" | "M"
@@ -32,16 +33,16 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
 
 
 ## 3. Použité metody
-### metody detekce osob
+### Metody detekce osob
 - Segmentace (vlastní implementace)
 - Viola-Jones (OpenCV)
 - MTCNN (OpenCV)
 - HOG (DLIB)
-### metody rozpoznání osob
+### Metody rozpoznání osob
 - PCA (vlasní implementace + Scipy)
 - Korelační filtr MACE (vlastní implementace)
 - Deep metric learning (knihovna Face_recognition implementující resnet-34 architekturu DLIB)
-### metody rozpoznání emocí, pohlaví a věku
+### Metody rozpoznání emocí, pohlaví a věku
 - YOLO v7 (použita [implementace](https://github.com/WongKinYiu/yolov7))
 - Vlastní neuronové sítě
   - 2x konvoluční vrstva
@@ -51,9 +52,9 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
 
 Aplikaci lze spustit napsáním příkazu python3 main.py v přikazovém řádku.
 
-### vývojový diagram
+### Vývojový diagram
  ![](window_flow.png)
-### funkcionalita
+### Funkcionalita
 
 - Stažení snímků do databáze
 
