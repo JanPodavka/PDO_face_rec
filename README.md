@@ -56,15 +56,17 @@ Tato část se dělí na tři samostatná podokna. V prvním podokně je možnos
 
 ![](one_people.png)
 
-
-- Vizuální testování webkamerou
-
-V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
 - Vizuální testování na libovolné fotografii
 
 Umožňuje vybrat libovolnou fotografii z adresářové struktury a stejně jako v okně s webkamerou je možné vizuálně otestovat vybrané algoritmy.
 
-![](one_people.png)
+![](testing.png)
+
+
+- Vizuální testování webkamerou
+
+V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
+
 
 ### návod ke spuštění
 
