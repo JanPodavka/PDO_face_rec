@@ -28,6 +28,9 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
 - "emotion": "S" | "H" | "N"  | "A" |
 - "faceloc" = [x1, y1, y2, x2] ((levý horní roh), (pravý spodní roh))
 
+![](json_example.png)
+
+
 ## 3. Použité metody
 ### metody detekce osob
 - Segmentace (vlastní implementace)
