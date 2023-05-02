@@ -22,7 +22,7 @@ Před začátkem je velmi doporučena instalace veškerých knihoven. Tyto kniho
  
 ## 2. Databáze
 
-Databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Pro uložení anotací k snímkům byl zvolen formát JSON s následující strukturou:
+Databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Databáze je uložena /data/data.json s následující strukturou:
 - "name": jméno
 - "age": 10 | 20 | 30 | 40 | 50 | 60 | 70
 - "gender": "F" | "M"
