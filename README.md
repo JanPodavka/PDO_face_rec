@@ -29,6 +29,8 @@ Databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
 - "emotion": "S" | "H" | "N"  | "A" |
 - "faceloc" = [x1, y1, y2, x2] ((levý horní roh), (pravý spodní roh))
 
+Příklad uložení 1 osoby:
+
 ![](json_example.png)
 
 
