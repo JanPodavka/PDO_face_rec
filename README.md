@@ -75,6 +75,11 @@ Umožňuje vybrat libovolnou fotografii z adresářové struktury a stejně jako
 
 V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
 
+## 5. Analýza testování
+
+- Výsledky veškerého testování jsou uloženy v adresáři data_analysis/"názevMetody"/"testování".csv
+- Veškeré popisky se nacházeji v hlavičce těchto souborů
+
 
 
 # Pivo
