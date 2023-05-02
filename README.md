@@ -41,20 +41,31 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
   - modifikace VGG7BN
 ## 4. Aplikace Face_Rec
 ### vývojový diagram
- 
+ ![](window_flow.png)
 ### funkcionalita
+
 - Stažení snímků do databáze
 
 Zadáním jména osobnosti do textového pole je staženo $n$ fotografií dané osoby s možností zvolit, které snímky si uživatel přeje uložit do své databáze.
+
+![](dataset_download.png)
+
 - Anotace dat
 
 Tato část se dělí na tři samostatná podokna. V prvním podokně je možnost volby osobnosti, kterou si uživatel přeje upravit. Následně jsou zobrazeny všechny fotografie dané osoby včetně anotací, pokud jsou již přiřazeny. Poslední podokno je věnováno samotnému upravení anotací snímku (věku, pohlaví a emoci), včetně zobrazení plochy ohraničující obličej.
+
+![](one_people.png)
+
+
 - Vizuální testování webkamerou
 
 V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
 - Vizuální testování na libovolné fotografii
 
 Umožňuje vybrat libovolnou fotografii z adresářové struktury a stejně jako v okně s webkamerou je možné vizuálně otestovat vybrané algoritmy.
+
+![](one_people.png)
+
 ### návod ke spuštění
 
 ## 5. Programy pro analýzu dat
