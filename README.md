@@ -36,12 +36,12 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
 ### metody rozpoznání emocí, pohlaví a věku
 - YOLO v7 (použita [implementace](https://github.com/WongKinYiu/yolov7))
 - Vlastní neuronové sítě
-  - test
-  - test
-  - test
+  - 2x konvoluční vrstva
+  - modifikace Resnet-8
+  - modifikace VGG7BN
 ## 4. Aplikace Face_Rec
 ### vývojový diagram
- doplnit
+ 
 ### funkcionalita
 - Stažení snímků do databáze
 
