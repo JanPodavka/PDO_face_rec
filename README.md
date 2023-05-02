@@ -13,8 +13,13 @@ Aplikace slouží pro tvorbu databáze fotografií osob s nástroji pro stažen�
 # Struktura dokumentace
 
 ## 1. Úvod do projektu
- - představení projektu
- - knihovny potřebné pro spuštění
+Tato práce se skládá ze 3 hlavních komponent:
+  - Databáze
+  - Aplikace
+  - Analýza testování
+  
+Před začátkem je velmi doporučena instalace veškerých knihoven. Tyto knihovny lze získat stažením projektu a příkazem pip: -r requirements.txt
+ 
 ## 2. Databáze
 databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohraničení oblasti obličeje probíhalo poloautomatickou formou s využitím algoritmu HOG, zbylé kategorie byly stanoveny prostřednictvím vytvořené aplikace. Pro uložení anotací k snímkům byl zvolen formát JSON s následující strukturou:
 - "name": jméno
@@ -40,6 +45,9 @@ databáze obsahuje 100 slavných osobností zastoupena 50 různými snímky. Ohr
   - modifikace Resnet-8
   - modifikace VGG7BN
 ## 4. Aplikace Face_Rec
+
+Aplikaci lze spustit napsáním příkazu python3 main.py v přikazovém řádku.
+
 ### vývojový diagram
  ![](window_flow.png)
 ### funkcionalita
@@ -68,15 +76,6 @@ Umožňuje vybrat libovolnou fotografii z adresářové struktury a stejně jako
 V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
 
 
-### návod ke spuštění
-
-## 5. Programy pro analýzu dat
-- soupis jednotlivých scriptů
-  - popis funkcionality
-  - souhrn použitých metod
-  - ovládací proměnné
-## 6. Data a výsledky analýzy testování
-- strukturované odkazy k výsledkům testování včetně použitých dat
 
 # Pivo
 
