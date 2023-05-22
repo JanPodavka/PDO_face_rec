@@ -48,6 +48,7 @@ Příklad uložení 1 osoby:
 ### Metody rozpoznání emocí, pohlaví a věku
 - YOLO v7 (použita [implementace](https://github.com/WongKinYiu/yolov7))
 - Vlastní neuronové sítě
+  - MLP
   - 2x konvoluční vrstva
   - modifikace Resnet-8
   - modifikace VGG7BN
