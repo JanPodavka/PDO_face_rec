@@ -18,7 +18,7 @@ Tato práce se skládá ze 3 hlavních komponent:
   - Aplikace
   - Analýza testování
   
-Před začátkem je velmi doporučena instalace veškerých knihoven. Tyto knihovny lze získat stažením projektu a příkazem pip: -r requirements.txt
+Před začátkem je velmi doporučena instalace veškerých knihoven. Je přiložen import virtuálního prostředí v adresáři /virtual_env/env_data_science.yml.Tento soubor lze importovat v prostředí Anaconda (spustit Anaconda -> prostředí -> import -> zvolit .yml soubor. Bohužel knihovny DLIB a face_recognition vyžadují samostatnou instalaci (včetně Visual studia).
  
 ## 2. Databáze
 
@@ -83,10 +83,14 @@ Umožňuje vybrat libovolnou fotografii z adresářové struktury a stejně jako
 
 V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
 
-## 5. Analýza testování
+## 5. Popis zbývajících souborů
 
-- Výsledky veškerého testování jsou uloženy v adresáři data_analysis/"názevMetody"/"testování".csv
-- Veškeré popisky se nacházeji v hlavičce těchto souborů
+- kivy_screens: obsahuje front-end soubory pro tvorbu github
+- plotting_methos: pomocné programy, které byly využity při tvorbě dokumentace
+- data: je zde uložena struktura JSON s databázi a detekční soubory
+- data_analysis: soubory s výsledky testování
+- yolo: v yolo/yolov7 se nachází implementace yolov7, v yolo/weights jsou natrénované váhy detektoru
+- own_cnn.ipynb: Zde je vytvořený program v jupyter notebooku pro testování neuronových sítí na databázi
 
 
 
