@@ -18,7 +18,7 @@ Tato práce se skládá ze 3 hlavních komponent:
   - Aplikace
   - Analýza testování
   
-Před začátkem je velmi doporučena instalace veškerých knihoven. Je přiložen import virtuálního prostředí v adresáři /virtual_env/env_data_science.yml.Tento soubor lze importovat v prostředí Anaconda (spustit Anaconda -> prostředí -> import -> zvolit .yml soubor. Bohužel knihovny DLIB a face_recognition vyžadují samostatnou instalaci (včetně Visual studia).
+Před začátkem je velmi doporučena instalace veškerých knihoven. Je přiložen import virtuálního prostředí v adresáři /virtual_env/env_data_science.yml.Tento soubor lze importovat v prostředí Anaconda (spustit Anaconda -> prostředí -> import -> zvolit .yml soubor. Bohužel knihovny DLIB a face_recognition vyžadují samostatnou instalaci (včetně Visual studia). Dále je třeba do adresáře yolo/ umístit yolov7 imeplementaci: https://github.com/WongKinYiu/yolov7 , v které jsou obsaženy podpůrné programy pro spouštění YOLO detektoru. V případě jakéhokoliv problému se spuštěním neváhejte kontaktovat na email: jan.podavka@tul.cz
  
 ## 2. Databáze
 
