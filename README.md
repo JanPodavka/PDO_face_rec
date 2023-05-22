@@ -60,28 +60,38 @@ Aplikaci lze spustit napsáním příkazu python3 main.py v přikazovém řádku
  ![](window_flow.png)
 ### Funkcionalita
 
-- Stažení snímků do databáze
+#### Stažení snímků do databáze
 
-Zadáním jména osobnosti do textového pole je staženo $n$ fotografií dané osoby s možností zvolit, které snímky si uživatel přeje uložit do své databáze.
+- Toto okno slouží pro stažení snímků a následné uložení snímku do databáze
+- Zadáním klíče (jména) do textového pole a stisknutím tlačítka najít je staženo n snímku do adresáře Osobnost/jméno
+- Počet stažených snímku je volen posuvníkem, který je limitován intervalem [0, 50]
+- Následně je nabídnuta možnost zvolení snímků, které si uživatel nepřeje uložit do své databáze. Jejich označením a stiskem tlačítka Smazat vybrané dojde k jejich odstraněné.
+- Tlačítkem Uložit dataset jsou veškeré nadále zobrazené fotografie uloženy do databáze ve formátu JSON a inicializovány prázdné anotace.
 
 ![](dataset_download.png)
 
-- Anotace dat
+####  Anotace dat
 
 Tato část se dělí na tři samostatná podokna. V prvním podokně je možnost volby osobnosti, kterou si uživatel přeje upravit. Následně jsou zobrazeny všechny fotografie dané osoby včetně anotací, pokud jsou již přiřazeny. Poslední podokno je věnováno samotnému upravení anotací snímku (věku, pohlaví a emoci), včetně zobrazení plochy ohraničující obličej.
 
 ![](one_people.png)
 
-- Vizuální testování na libovolné fotografii
+![](edit_label.png)
 
-Umožňuje vybrat libovolnou fotografii z adresářové struktury a stejně jako v okně s webkamerou je možné vizuálně otestovat vybrané algoritmy.
+####  Vizuální testování na libovolné fotografii
 
-![](testing.png)
+Stiskem tlačítka Vybrat fotografii je zobrazena možnost vybrat libovolnou fotografii nacházející se v paměti zařízení. je nutné dodržet několik pravidel,
+v opačném případě aplikace nespustí požadovanou metodu:
+
+- pro identifikaci osob platí, že není možná aktivace více metod současně a je vyžadováno využité jedné či více detekčních metod
+- pro spuštění YOLO metod je nutné mít neaktvivní všechny ostatní (a nelze spustit více současně)
+
+![](detect.png)
 
 
-- Vizuální testování webkamerou
+####  Vizuální testování webkamerou
 
-V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé tři vteřiny.
+V případě připojené videokamery je možné otestovat vybrané metody v reálném čase. Obraz je aktualizován s obnovovací frekvencí 30 snímků za vteřinu. Pro zrychlení chodu aplikace probíhá, v případě aktivace jedné z rozpoznávacích metod, identifikace každé 3 vteřiny. Jinak je princip stejný jako testování na fotografii.
 
 ## 5. Popis zbývajících souborů
 
